@@ -1,6 +1,58 @@
-# RestaurantManagementSystem_CppProject
+# 🍽️ RestaurantManagementSystem_CppProject
 
+A complete Restaurant Management System developed in C++ that simplifies the food ordering and billing process.
 
-This C++ program is a comprehensive restaurant management system designed to streamline the ordering process. It enables users to place detailed orders from various categories and subcategories of food items, offering flexibility and convenience. After finalizing the order, users are prompted to input their personal details, including name, phone number, and delivery address. The program calculates and displays the final bill, ensuring transparency and accuracy in the billing process.
+## 📌 About the Project
 
-Additionally, the system includes a feature that allows users to change the prices of items; the next time an item from that category is selected, the updated prices are displayed. Finally, the system prints a personalized thank you message and confirms that the order will be promptly delivered to the provided address. This user-friendly system enhances the overall dining experience by making the ordering process efficient, organized, and adaptable.
+This project is a console-based Restaurant Management System designed to provide an organized and user-friendly ordering experience. The system allows customers to browse different food categories and subcategories, place orders, and generate a final bill automatically.
+
+Users are also asked to provide their personal details, including:
+- Name
+- Phone Number
+- Delivery Address
+
+The system then displays the complete bill with updated pricing and confirms the order delivery.
+
+---
+
+## ✨ Features
+
+- 📋 Multiple food categories and subcategories
+- 🛒 Detailed order placement system
+- 💵 Automatic bill calculation
+- ✏️ Dynamic price update feature
+- 👤 Customer information input
+- 📦 Delivery confirmation message
+- 🖥️ Simple and interactive console interface
+
+---
+
+## 🛠️ Technologies Used
+
+- C++
+- Object-Oriented Programming (OOP)
+- File Handling / Functions
+- Console-based Interface
+
+---
+
+## 🚀 How to Run
+
+1. Open the project in any C++ IDE
+   - CodeBlocks
+   - Dev-C++
+   - Visual Studio
+2. Compile the source file
+3. Run the program
+4. Start placing orders
+
+---
+
+## 📂 Project Structure
+
+```text
+RestaurantManagementSystem_CppProject/
+│
+├── main.cpp
+├── README.md
+└── screenshots/
