@@ -7,13 +7,15 @@ A high-performance, interactive console application built in **C++** that automa
 ## 📌 Table of Contents
 1. [🌟 About the Project](#-about-the-project)
 2. [✨ Key Features](#-key-features)
-3. [📊 System Architecture & Flow](#-system-architecture--flow)
-4. [📋 Detailed Menu & Initial Pricing](#-detailed-menu--initial-pricing)
-5. [🎮 Step-by-Step Functionality](#-step-by-step-functionality)
-6. [⚙️ Technical Implementation Details](#-technical-implementation-details)
-7. [📂 File Handling & Persistence](#-file-handling--persistence)
-8. [🚀 How to Compile & Run](#-how-to-compile--run)
-9. [👤 Authors & Contributors](#-authors--contributors)
+3. [🛠️ Technologies Used](#-technologies-used)
+4. [📂 Project Structure](#-project-structure)
+5. [📊 System Architecture & Working](#-system-architecture--working)
+6. [📋 Detailed Menu & Initial Pricing](#-detailed-menu--initial-pricing)
+7. [🎮 Step-by-Step Functionality](#-step-by-step-functionality)
+8. [⚙️ Technical Implementation Details](#-technical-implementation-details)
+9. [💾 File Handling & Persistence](#-file-handling--persistence)
+10. [🚀 How to Run](#-how-to-run)
+11. [👤 Authors & Contributors](#-authors--contributors)
 
 ---
 
@@ -27,15 +29,39 @@ Designed for efficiency and visual feedback, the system incorporates custom anim
 
 ## ✨ Key Features
 
-* 📂 **Multi-Level Categorized Menu**: 7 major food categories subdivided into specific cuisines and local variations.
+* 📋 **Multi-Level Categorized Menu**: 7 major food categories subdivided into specific cuisines and local variations.
 * 🛒 **Dynamic Cart & Bill System**: Keeps track of running subtotals, quantities, and calculates the final billing on checkout.
-- ⚙️ **Dynamic Price Modification**: Administrative capability to modify item prices in real-time during runtime.
-- 📝 **Data Persistence**: Records customer credentials (name, phone number, and address) and logs order details directly into an external database file (`Delivery Data.txt`).
-- ⚡ **Rich Console UX**: Uses Windows-specific API routines to control terminal colors, custom text typing speed delays (`Typetext`), and an interactive loading bar.
+* ✏️ **Dynamic Price Modification**: Administrative capability to modify item prices in real-time during runtime.
+* 👤 **Customer Information Input**: Prompts and validates delivery details from the customer prior to order finalization.
+* 💾 **Data Persistence**: Records customer credentials and logs order details directly into an external database file (`Delivery Data.txt`).
+* 🖥️ **Rich Console UX**: Uses Windows-specific API routines to control terminal colors, custom text typing speed delays (`Typetext`), and an interactive loading bar.
 
 ---
 
-## 📊 System Architecture & Flow
+## 🛠️ Technologies Used
+
+* 💻 **C++ Language**: Core business logic and menu manipulation.
+* 🧱 **Object-Oriented Programming (OOP)**: Structured functions and separation of category concerns.
+* 💾 **File Handling / Streams**: `std::fstream` implementation for database storage.
+* 📺 **Windows API (`windows.h`)**: UI enhancements including `Sleep()` timers and terminal screen manipulation via `system()`.
+
+---
+
+## 📂 Project Structure
+
+```text
+RestaurantManagementSystem_CppProject/
+│
+├── .git/                               # Version control repository metadata
+├── README.md                           # Documentation & system blueprint (this file)
+├── Restaurant Management System.cpp    # Primary source code implementing the CLI application
+├── Restaurant Managemnt System.sln     # Visual Studio solution file for MSVC compilers
+└── Restaurant Mnagemnt System.avi      # Project video demonstration file
+```
+
+---
+
+## 📊 System Architecture & Working
 
 The application behaves as a state-machine that operates inside a cyclic loop:
 
@@ -171,7 +197,7 @@ The program makes active use of the following native C++ paradigms and system AP
 
 ---
 
-## 📂 File Handling & Persistence
+## 💾 File Handling & Persistence
 
 When checking out (Option 9), the program requests the user's contact information. This information is processed through the file stream system and appended directly to `Delivery Data.txt` in the root executable directory:
 
@@ -187,7 +213,7 @@ file.close();
 
 ---
 
-## 🚀 How to Compile & Run
+## 🚀 How to Run
 
 ### Prerequisites
 * **Operating System**: Windows (uses `windows.h` headers for colors and thread sleeping)
