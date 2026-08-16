@@ -10,12 +10,11 @@ A high-performance, interactive console application built in **C++** that automa
 3. [🛠️ Technologies Used](#-technologies-used)
 4. [📂 Project Structure](#-project-structure)
 5. [📊 System Architecture & Working](#-system-architecture--working)
-6. [📋 Detailed Menu & Initial Pricing](#-detailed-menu--initial-pricing)
-7. [🎮 Step-by-Step Functionality](#-step-by-step-functionality)
-8. [⚙️ Technical Implementation Details](#-technical-implementation-details)
-9. [💾 File Handling & Persistence](#-file-handling--persistence)
-10. [🚀 How to Run](#-how-to-run)
-11. [👤 Authors & Contributors](#-authors--contributors)
+6. [🎮 Step-by-Step Functionality](#-step-by-step-functionality)
+7. [⚙️ Technical Implementation Details](#-technical-implementation-details)
+8. [💾 File Handling & Persistence](#-file-handling--persistence)
+9. [🚀 How to Run](#-how-to-run)
+10. [👤 Authors & Contributors](#-authors--contributors)
 
 ---
 
@@ -81,72 +80,7 @@ graph TD
     J --> K([End Program])
 ```
 
----
 
-## 📋 Detailed Menu & Initial Pricing
-
-Below is the complete hierarchical menu system implemented in the codebase:
-
-| Category | Sub-Category | Item Name | Initial Price (Rs.) |
-| :--- | :--- | :--- | :--- |
-| **1. Instant** | Noodles | Kolson Noodles | 150 |
-| | | Knorr Noodles | 180 |
-| | | Samyang Noodles | 200 |
-| | Pasta | Vermicelli Pasta | 350 |
-| | | Elbow Pasta | 500 |
-| | | Spaghetti Pasta | 700 |
-| | Chips | Pringles | 50 |
-| | | Lays | 100 |
-| | | Twisters | 150 |
-| **2. Meat** | Chicken | Chicken Karahi (1kg) | 1,000 |
-| | | White Meat (1kg) | 1,500 |
-| | | Desi Karahi (1kg) | 1,700 |
-| | Mutton | Mutton Korma | 2,000 |
-| | | Mutton Nihari | 2,200 |
-| | | Mutton Curry | 2,500 |
-| | Beef | Beef Shanks | 3,000 |
-| | | Beef Chucks | 3,200 |
-| | | Beef Ribs | 3,500 |
-| **3. Fish** | Boneless | Kala Paplet (1kg) | 1,500 |
-| | | Cat Fish (Khagga) (1kg) | 2,000 |
-| | | Croacker Mushka (1kg) | 2,500 |
-| | Fish Cuts | Fillet Cuts | 1,000 |
-| | | Lion Cuts | 1,500 |
-| | | Tail Cuts | 2,000 |
-| | Crustaceans | Crab | 3,000 |
-| | | Cray Fish | 4,000 |
-| | | Lobster | 4,500 |
-| **4. Soup** | Soups | Cream Soup | 500 |
-| | | Chowders Soup | 700 |
-| | | Bisque Soup | 900 |
-| **5. Cuisine** | Spaghetti | Spaghettini | 200 |
-| | | Spaghettoni | 400 |
-| | | Stringozzi | 500 |
-| | Rice | Chicken Biryani | 250 |
-| | | Chicken Pulao | 300 |
-| | | Chinese Rice | 450 |
-| | Chow Mein | Crispy Chow Mein | 350 |
-| | | Steamed Chow Mein | 600 |
-| | | Yaki-Soba Noodles | 700 |
-| **6. Drinks** | Tea | Quetta Dudh Patti | 100 |
-| | | Special Tea | 150 |
-| | | Green Tea | 200 |
-| | Cold Drinks | Regular (Pepsi, 7up, Mirinda, Sprite) | 100 |
-| | | Sting | 100 |
-| | | Red Bull | 500 |
-| | Juices | Nestle Box Juice | 200 |
-| | | Fresh Juice | 250 |
-| | | Milk Shake | 250 |
-| **7. Desserts** | Ice Cream | Tutti Frutti | 200 |
-| | | Blue Berry | 250 |
-| | | Choco Lava | 250 |
-| | Pastries | Brownie | 150 |
-| | | Dessert Pastry | 300 |
-| | | Chocolate Pastry | 500 |
-| | Home Made | Kheer Mix | 300 |
-| | | Custard | 400 |
-
----
 
 ## 🎮 Step-by-Step Functionality
 
